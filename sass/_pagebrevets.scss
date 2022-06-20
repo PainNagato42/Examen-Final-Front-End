@@ -1,0 +1,28 @@
+.brevet, .brevet-specialite {
+    background-color: $third-color;
+    color: #fff;
+    padding: 32px;
+    h3 {
+        font-family: $second-font;
+        font-size: 1.6rem;
+        color: #fff;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    p {
+        line-height: 22px;
+    }
+    p:not(p:last-of-type) {
+        margin-bottom: 32px
+    }
+}
+.brevet {
+    max-width: 791px;
+    margin: 0 auto 16px;
+}
+.brevet-specialite {
+    position: relative;
+    margin: 5px 8px;
+    height: 480px;
+}

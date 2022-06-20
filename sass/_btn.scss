@@ -1,0 +1,43 @@
+.btn {
+    border: 1px solid $first-color;
+    padding: 8px 18px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: $first-color;
+    font-family: $first-font;
+    font-size: 1.2rem;
+}
+.btn:hover {
+    color: $second-color;
+    border-color: $second-color;
+}
+.btn-slogan {
+    border-color: $second-color;
+    color: $second-color;
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+.btn-slogan:hover {
+    border-color: $first-color;
+    color: $first-color;
+}
+.btn-meteo {
+    margin-top: 32px;
+}
+.btn-prestation {
+    border-color: $second-color;
+    color: $second-color;
+    margin-top: 32px;
+    font-size: 1.3rem;
+}
+.btn-prestation:hover {
+    background-color: $second-color;
+    color: $first-color;
+}
+.btn-brevet {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,55 @@
+@import "var";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/********************************/
+/* MISE EN FORME */
+@import "miseenforme";
+
+/**************************/
+/* MISE EN PAGE */
+@import "miseenpage";
+
+/**************************/
+/* SLIDER */
+@import "slider";
+
+/**************************/
+/* BOUTON */
+@import "btn";
+
+/**************************/
+/* WIDTH */
+@import "width";
+
+/**************************/
+/* BG-COLOR */
+.bg-color-firstColor {
+    background-color: $first-color;
+}
+/**************************/
+/* MARGIN / PADDING */
+.margin-top-172 {
+    margin-top: 172px;
+}
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+/***************************/
+/* ALL PAGE PRESTATIONS */
+@import "_all_page_prestations";
+
+/***************************/
+/* PAGE BREVET */
+@import "pagebrevets";
+
+/***************************/
+/* MEDIAQUERIES */
+@import "mediaqueries";
+
+/***************************/
+/* MENU HAMBURGER */
+@import "hamburger";

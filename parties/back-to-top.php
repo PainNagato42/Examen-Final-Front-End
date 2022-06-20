@@ -1,0 +1,1 @@
+<div class="back-top flex justify-center align-center large-none"><a href="#"><?php include("img/top.svg"); ?></a></div>

@@ -1,0 +1,49 @@
+.wingsuit, .parapente, .parachute {
+    background-color: $third-color;
+    color: #fff;
+    width: 1025px;
+    margin: 0 auto;
+    padding: 32px;
+    p {
+        line-height: 22px;
+    }
+    div.large-50:nth-child(2) {
+        max-width: 440px;
+        margin: 0 auto;
+
+        p:not(p:nth-child(3)) {
+            margin-bottom: 32px;
+        }
+    }
+    .tarifs {
+        h3 {
+            font-family: $first-font;
+            color: $second-color;
+            font-size: 1.6rem;
+            margin-bottom: 24px;
+        }
+        p {
+            font-size: 1.2rem;
+            span {
+                color: $second-color;
+            }
+        }
+    }
+}
+.wingsuit {
+    div:nth-child(3) {
+        margin: 16px 0 32px;
+        padding-right: 77px;
+    }
+}
+.parapente, .parachute {
+    div:nth-child(3) {
+        margin-bottom: 16px;
+    }
+    div:nth-child(5) {
+        margin: 16px 0 32px;
+    }
+}
+.parachute div:nth-child(5) p {
+    margin-bottom: 16px;
+}

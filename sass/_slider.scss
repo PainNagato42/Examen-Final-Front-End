@@ -1,0 +1,77 @@
+.slider {
+    position: relative;
+}
+.slogan {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    font-family: $first-font;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    span {
+        color: $second-color;
+    }
+}
+.left, .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.left {
+    left: 2%;
+}
+.right {
+    right: 2%;
+}
+.image-slide {
+    display: none;
+}
+.image-slide.active {
+    display: block;
+    animation: fade 2s;
+}
+@keyframes fade {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.logos {
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+    img {
+        margin-right: 25px;
+        cursor: pointer;
+    }
+    img:nth-child(3) {
+        margin-bottom: -15px;
+    }
+    p {
+        color: #fff;
+        margin-top: 10px;
+    }
+}
+.nat-geo, .ffp, .ffvl, .guinness {
+    position: absolute;
+    display: none;
+    top: 63%;
+    left: 8%;
+    border: 1px solid #111;
+    width: 400px;
+    padding: 32px;
+    color: #fff;
+    background-color: $third-color;
+}
+.nat-geo {
+    left: 2%;
+    width: 600px;
+}
+.ffvl {
+    width: 450px;
+}
